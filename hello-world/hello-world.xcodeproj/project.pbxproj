@@ -15,6 +15,8 @@
 		CE9E93141FF1F54800E8C6E3 /* hello_worldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E93131FF1F54800E8C6E3 /* hello_worldTests.swift */; };
 		CE9E931F1FF1F54800E8C6E3 /* hello_worldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E931E1FF1F54800E8C6E3 /* hello_worldUITests.swift */; };
 		CE9E93311FF208C700E8C6E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9E93301FF208C700E8C6E3 /* Default-568h@2x.png */; };
+		CE9E93381FF215F300E8C6E3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E93371FF215F300E8C6E3 /* API.swift */; };
+		CE9E933A1FF2198B00E8C6E3 /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E93391FF2198B00E8C6E3 /* NetWorkTools.swift */; };
 		D2DC15DA6ACE14936EB07355 /* Pods_hello_world.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281B1D62EEEA21158F2A4CAE /* Pods_hello_world.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		CE9E931E1FF1F54800E8C6E3 /* hello_worldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_worldUITests.swift; sourceTree = "<group>"; };
 		CE9E93201FF1F54800E8C6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE9E93301FF208C700E8C6E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE9E93371FF215F300E8C6E3 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CE9E93391FF2198B00E8C6E3 /* NetWorkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 		CE9E92FD1FF1F54800E8C6E3 /* hello-world */ = {
 			isa = PBXGroup;
 			children = (
+				CE9E93361FF2159200E8C6E3 /* Config */,
 				CE9E93341FF209E000E8C6E3 /* Views */,
 				CE9E93331FF209D000E8C6E3 /* Models */,
 				CE9E93321FF208DB00E8C6E3 /* ViewControllers */,
@@ -206,6 +211,15 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CE9E93361FF2159200E8C6E3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E93371FF215F300E8C6E3 /* API.swift */,
+				CE9E93391FF2198B00E8C6E3 /* NetWorkTools.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,7 +428,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9E933A1FF2198B00E8C6E3 /* NetWorkTools.swift in Sources */,
 				CE9E93011FF1F54800E8C6E3 /* ViewController.swift in Sources */,
+				CE9E93381FF215F300E8C6E3 /* API.swift in Sources */,
 				CE9E92FF1FF1F54800E8C6E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
